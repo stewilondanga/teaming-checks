@@ -41,12 +41,11 @@ body:before {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-
-h3 {
+/*h3 {
   position: absolute;
   top: 0;
   left: 0;
