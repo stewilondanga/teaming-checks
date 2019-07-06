@@ -131,10 +131,11 @@ span {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.65);
 }
 
-/*[for='toggle-0'] .false {
+[for='toggle-0'] .false {
   color: #a4a4a4;
 }
-[for='toggle-0']:after {
+
+/*[for='toggle-0']:after {
   padding: .25em;
   box-shadow: 0 0.375em 0.375em rgba(120, 120, 120, 0.65);
   background: linear-gradient(#c9c9c9, #fefefe) content-box, linear-gradient(#fafafa, #a5a5a5);
