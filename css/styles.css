@@ -95,7 +95,7 @@ h3 {
   --s: 1;
 }
 
-/*span {
+span {
   --j: calc(1 - 2*var(--i));
   display: grid;
   place-content: center;
@@ -104,8 +104,8 @@ h3 {
   text-shadow: 1px 1px #fff;
   text-transform: uppercase;
   /* fallback, WebKit only because Firefox buggy */
-/*}
-@supports not (-moz-transform: scale(2)) {
+  /*}
+/*@supports not (-moz-transform: scale(2)) {
   span {
     transition: 0.35s ease-out;
   }
