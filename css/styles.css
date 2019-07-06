@@ -184,13 +184,12 @@ span {
   background: linear-gradient(#e1e1e1, #f9f9f9) padding-box, linear-gradient(#f4f4f4, #fff) border-box;
 }
 
-/*
 .containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
