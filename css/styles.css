@@ -141,11 +141,12 @@ span {
   background: linear-gradient(#c9c9c9, #fefefe) content-box, linear-gradient(#fafafa, #a5a5a5);
 }
 
-/*[for='toggle-1'] {
+[for='toggle-1'] {
   box-shadow: inset 0 1px 3px #a7a7a7;
   background: linear-gradient(hsl(89, calc(var(--s)*60%), calc(85% - var(--s)*9%)), hsl(90, calc(var(--s)*60%), calc(86% - var(--s)*8%)));
 }
-[for='toggle-1'] .true {
+
+/*[for='toggle-1'] .true {
   color: #335812;
 }
 [for='toggle-1'] .false {
