@@ -170,10 +170,11 @@ span {
   background: linear-gradient(#f5f8f1, hsl(92, calc(var(--s)*34%), 85%)) padding-box, linear-gradient(#d5d5d5, #fefefe) border-box;
 }
 
-/*[for='toggle-2'] .true {
+[for='toggle-2'] .true {
   color: #79aa2d;
 }
-[for='toggle-2'] .false {
+
+/*[for='toggle-2'] .false {
   color: #9c9c9c;
 }
 [for='toggle-2']:after {
