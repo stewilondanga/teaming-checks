@@ -1,3 +1,9 @@
+/*CSS.registerProperty({
+  name: '--s',
+  syntax: '<number>',
+  initialValue: 0,
+  inherits: true });
+
 var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
