@@ -91,11 +91,11 @@ h3 {
   }
 }
 
-/*[type='checkbox']:checked + label {
-  --s: 1 ;
+[type='checkbox']:checked+label {
+  --s: 1;
 }
 
-span {
+/*span {
   --j: calc(1 - 2*var(--i));
   display: grid;
   place-content: center;
