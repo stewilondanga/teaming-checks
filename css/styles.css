@@ -126,11 +126,12 @@ span {
   background: linear-gradient(hsl(203, calc(var(--s)*60%), calc(99% - var(--s)*42%)), hsl(207, calc(var(--s)*79%), calc(82% - var(--s)*46%)));
 }
 
-/*[for='toggle-0'] .true {
+[for='toggle-0'] .true {
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.65);
 }
-[for='toggle-0'] .false {
+
+/*[for='toggle-0'] .false {
   color: #a4a4a4;
 }
 [for='toggle-0']:after {
