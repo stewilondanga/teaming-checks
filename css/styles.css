@@ -106,13 +106,13 @@ span {
   /* fallback, WebKit only because Firefox buggy */
 }
 
-/*@supports not (-moz-transform: scale(2)) {
+@supports not (-moz-transform: scale(2)) {
   span {
     transition: 0.35s ease-out;
   }
 }
 
-.true {
+/*.true {
   --i: 1 ;
 }
 
