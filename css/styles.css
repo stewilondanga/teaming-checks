@@ -4,6 +4,16 @@
   font: inherit;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  font: 900 1em trebuchet ms, verdana, sans-serif;
+  background: linear-gradient(90deg, #f5f5f5, #e5e5e5 47%, #e5e5e5 53%, #f5f5f5) 0/0.5em;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -27,16 +37,6 @@
   height: 1.5em;
 }
 
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 100vh;
-  font: 900 1em trebuchet ms, verdana, sans-serif;
-  background: linear-gradient(90deg, #f5f5f5, #e5e5e5 47%, #e5e5e5 53%, #f5f5f5) 0/0.5em;
-}
 body:before {
   z-index: -1;
   --mask: linear-gradient(red 50%, transparent 50%) 0/ 1px .5em;
