@@ -120,12 +120,13 @@ span {
   --i: 0;
 }
 
-/*[for='toggle-0'] {
+[for='toggle-0'] {
   padding: .125em;
   box-shadow: inset 0 1px 5px hsl(0, 0%, calc(72% - var(--s)*51%));
   background: linear-gradient(hsl(203, calc(var(--s)*60%), calc(99% - var(--s)*42%)), hsl(207, calc(var(--s)*79%), calc(82% - var(--s)*46%)));
 }
-[for='toggle-0'] .true {
+
+/*[for='toggle-0'] .true {
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.65);
 }
