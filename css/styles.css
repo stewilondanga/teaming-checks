@@ -150,10 +150,11 @@ span {
   color: #335812;
 }
 
-/*[for='toggle-1'] .false {
+[for='toggle-1'] .false {
   color: #909090;
 }
-[for='toggle-1']:after {
+
+/*[for='toggle-1']:after {
   --posttrf: scale(.69);
   box-shadow: 0 3px 7px #959595;
   --ridge: radial-gradient(#bbb, transparent 70%);
