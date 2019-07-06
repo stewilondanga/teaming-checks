@@ -71,9 +71,10 @@ h3 {
   border-radius: 2.5em;
   cursor: pointer;
   /* Houdini upgrade, Blink browsers with flag only */
-  /*transition: --s 0.35s ease-in-out;
+  transition: --s 0.35s ease-in-out;
 }
-[type='checkbox'] + label:after {
+
+/*[type='checkbox'] + label:after {
   box-sizing: border-box;
   position: absolute;
   width: 2.5em;
@@ -82,7 +83,7 @@ h3 {
   transform: translate(calc(var(--s)*3.75em)) var(--posttrf,  );
   content: '';
   /* fallback, WebKit only because Firefox buggy */
-  /*}
+/*}
 @supports not (-moz-transform: scale(2)) {
   [type='checkbox'] + label:after {
     transition: 0.35s ease-in-out;
@@ -101,7 +102,7 @@ span {
   text-shadow: 1px 1px #fff;
   text-transform: uppercase;
   /* fallback, WebKit only because Firefox buggy */
-  /*}
+/*}
 @supports not (-moz-transform: scale(2)) {
   span {
     transition: 0.35s ease-out;
