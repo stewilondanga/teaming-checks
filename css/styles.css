@@ -154,7 +154,7 @@ span {
   color: #909090;
 }
 
-/*[for='toggle-1']:after {
+[for='toggle-1']:after {
   --posttrf: scale(.69);
   box-shadow: 0 3px 7px #959595;
   --ridge: radial-gradient(#bbb, transparent 70%);
@@ -163,7 +163,7 @@ span {
   background-repeat: no-repeat;
 }
 
-[for='toggle-2'] {
+/*[for='toggle-2'] {
   border: solid .5em transparent;
   padding: .125em;
   box-shadow: inset 0 0 0 1px #ccc, inset 0 -2px 3px #ccc;
