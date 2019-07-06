@@ -85,12 +85,13 @@ h3 {
   /* fallback, WebKit only because Firefox buggy */
 }
 
-/*@supports not (-moz-transform: scale(2)) {
-  [type='checkbox'] + label:after {
+@supports not (-moz-transform: scale(2)) {
+  [type='checkbox']+label:after {
     transition: 0.35s ease-in-out;
   }
 }
-[type='checkbox']:checked + label {
+
+/*[type='checkbox']:checked + label {
   --s: 1 ;
 }
 
