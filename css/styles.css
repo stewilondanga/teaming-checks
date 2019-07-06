@@ -104,7 +104,8 @@ span {
   text-shadow: 1px 1px #fff;
   text-transform: uppercase;
   /* fallback, WebKit only because Firefox buggy */
-  /*}
+}
+
 /*@supports not (-moz-transform: scale(2)) {
   span {
     transition: 0.35s ease-out;
