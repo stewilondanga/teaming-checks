@@ -163,13 +163,14 @@ span {
   background-repeat: no-repeat;
 }
 
-/*[for='toggle-2'] {
+[for='toggle-2'] {
   border: solid .5em transparent;
   padding: .125em;
   box-shadow: inset 0 0 0 1px #ccc, inset 0 -2px 3px #ccc;
   background: linear-gradient(#f5f8f1, hsl(92, calc(var(--s)*34%), 85%)) padding-box, linear-gradient(#d5d5d5, #fefefe) border-box;
 }
-[for='toggle-2'] .true {
+
+/*[for='toggle-2'] .true {
   color: #79aa2d;
 }
 [for='toggle-2'] .false {
